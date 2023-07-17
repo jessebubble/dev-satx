@@ -99,7 +99,7 @@ export default function CityBranding() {
           Visual elements such as traditional Mexican folk art, Mariachi music instruments, papel picado, and sombreros may be used to represent the city's lively arts scene and cultural traditions.
         </p>
         <p className="mt-6 flex items-baseline gap-x-2 text-[0.8125rem]/6 text-conchaPink hover:text-riverwalkTeal font-semibold">
-          <a href="https://image-gallery-starter-pi-eosin.vercel.app/" rel="noreferrer" target="_blank">
+          <a href="/" rel="noreferrer" target="_blank">
             Early preview to logo concepts we're working on&nbsp;<span aria-hidden="true">&rarr;</span>
           </a>
         </p>
