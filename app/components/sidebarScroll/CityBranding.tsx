@@ -35,8 +35,8 @@ export default function CityBranding() {
       <div className="mt-16 sm:mt-20 ">
         <img
           className="h-96 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-lg"
-          src="https://a-us.storyblok.com/f/1015487/3600x2400/abf134eb6c/culture.jpg"
-          alt="San Antonio fiesta parade"
+          src="https://a-us.storyblok.com/f/1015487/232x150/154dea8163/floralprint.svg"
+          alt="San Antonio branded floral print pattern"
         />
         <h1 className="mt-6 text-2xl font-bold leading-8 text-missionbellGrey sm:text-3xl sm:leading-9">
           San Antonio's media outlets
@@ -62,8 +62,8 @@ export default function CityBranding() {
       <div className="mt-16 sm:mt-20 ">
         <img
           className="h-96 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-lg"
-          src="https://a-us.storyblok.com/f/1015487/3500x2333/d302792ca9/sanjosemission.jpg"
-          alt="San Jose Mission"
+          src="https://a-us.storyblok.com/f/1015487/8601x3701/e9ba022569/skyline.jpg"
+          alt="San Antonio skyline"
         />
         <h1 className="mt-6 text-2xl font-bold leading-8 text-missionbellGrey sm:text-3xl sm:leading-9">
           San Antonio's Growing Tech Scene
@@ -88,8 +88,8 @@ export default function CityBranding() {
       <div className="mt-16 sm:mt-20 ">
         <img
           className="h-96 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-lg"
-          src="https://a-us.storyblok.com/f/1015487/3600x2400/823c4bcdbd/fiesta.jpg"
-          alt="San Antonio fiesta parade"
+          src="https://a-us.storyblok.com/f/1015487/2152x1073/1b2ec2d4d2/preview.png"
+          alt="devmountain logo with san antonio branded colors"
         />
         <h1 className="mt-6 text-2xl font-bold leading-8 text-missionbellGrey sm:text-3xl sm:leading-9">
           VIVA! DevMountain
