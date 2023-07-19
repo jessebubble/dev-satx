@@ -12,7 +12,7 @@
           </a>
         </div>
         <h1 className="font-display text-4xl/tight font-light text-riverwalkTeal">
-          Hola! Devmountain
+          Hola! DevMountain
           <span className="block text-conchaPink">Welcome to the San Antonio community</span>
         </h1>
         <p className="mt-4 text-sm/6 text-pearlWhite">
