@@ -1,17 +1,19 @@
-import { CheckCircleIcon } from '@heroicons/react/20/solid'
-
 const mediaExamples = [  
   {outlet: 'San Antonio Express-News', href: 'https://www.hearstmediasa.com/web'},
   {outlet: 'San Antonio Current', href: 'https://mediakit.sacurrent.com/'},
   {outlet: 'mySA', href: 'https://www.hearstmediasa.com/web'},
   {outlet: 'Texas Public Radio', href: 'https://www.tpr.org/'},
+  {outlet: 'do210', href: 'https://do210.com/'},
 ]
 
-const bootcampExamples = [
-  {bootcamp: 'Codeup', href: 'https://codeup.edu/san-antonio/'},
-  {bootcamp: 'UTSA (edX)', href: 'https://bootcamp.utsa.edu/coding/'},
-  {bootcamp: 'NuCamp', href: 'https://www.nucamp.co/community/tx/san-antonio'},
-  {bootcamp: 'Coding Dogo', href: 'https://www.codingdojo.com/campus/san-antonio-coding-bootcamp'},
+const localTechExamples = [
+  {company: 'greater:SATX', href: 'https://greatersatx.com/industries/technology/'},
+  {company: 'Geekdom', href: 'https://geekdom.com/'},
+  {company: 'Port San Antonio', href: 'https://www.portsanantonio.us/'},
+  {company: 'Codeup', href: 'https://codeup.edu/san-antonio/'},
+  {company: 'UTSA (edX)', href: 'https://bootcamp.utsa.edu/coding/'},
+  //{company: 'NuCamp', href: 'https://www.nucamp.co/community/tx/san-antonio'},
+  //{company: 'Coding Dogo', href: 'https://www.codingdojo.com/campus/san-antonio-coding-bootcamp'},
 ]
 
 export default function CityBranding() {
@@ -51,7 +53,12 @@ export default function CityBranding() {
           {mediaExamples.map((example) => (
             <a href={example.href} key={example.outlet} rel="noreferrer" target="_blank">
               <li className="flex gap-x-3">
-                <CheckCircleIcon className="h-7 w-5 flex-none text-riverwalkTeal" aria-hidden="true" />
+                <img 
+                  className="h-7 w-5 flex-none text-riverwalkTeal" 
+                  aria-hidden="true" 
+                  alt="pepper icon"
+                  src="https://a-us.storyblok.com/f/1015487/150x150/5c39875406/pepper.svg"
+                />
                 {example.outlet}
               </li>
             </a>
@@ -74,11 +81,16 @@ export default function CityBranding() {
         <ul
           className="mt-6 grid grid-cols-1 gap-x-8 gap-y-3 text-base leading-7 text-conchaPink sm:grid-cols-2"
         >
-          {bootcampExamples.map((example) => (
-            <a href={example.href} key={example.bootcamp} rel="noreferrer" target="_blank">
+          {localTechExamples.map((example) => (
+            <a href={example.href} key={example.company} rel="noreferrer" target="_blank">
               <li className="flex gap-x-3">
-                <CheckCircleIcon className="h-7 w-5 flex-none text-riverwalkTeal" aria-hidden="true" />
-                {example.bootcamp}
+                <img 
+                  className="h-7 w-5 flex-none text-riverwalkTeal" 
+                  aria-hidden="true" 
+                  alt="cactus icon"
+                  src="https://a-us.storyblok.com/f/1015487/150x150/5a562096a9/cactus.svg"
+                />
+                {example.company}
               </li>
             </a>
           ))}
@@ -100,7 +112,7 @@ export default function CityBranding() {
         </p>
         <p className="mt-6 flex items-baseline gap-x-2 text-[0.8125rem]/6 text-conchaPink hover:text-riverwalkTeal font-semibold">
           <a href="https://image-gallery-starter-pi-eosin.vercel.app/" rel="noreferrer" target="_blank">
-            Early preview to logo concepts we're working on&nbsp;<span aria-hidden="true">&rarr;</span>
+            Preview DevMountain San Antonio branding concepts&nbsp;<span aria-hidden="true">&rarr;</span>
           </a>
         </p>
       </div>

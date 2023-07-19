@@ -5,7 +5,7 @@
         <div className="-ml-8"> 
           <a href="https://devmountain.com/learn-to-code-in-person-your-favorite-instructor?utm_source=jesse-hernandez&utm_medium=social-email&utm_campaign=og-in-person-san-antonio">
             <img 
-              src="https://a-us.storyblok.com/f/1015487/194x150/1b10866601/devsatx-logo-teal-pink.svg"
+              src="https://a-us.storyblok.com/f/1015487/194x150/1215650675/devsatx-logo-teal-pink.svg"
               className="h-40 lg:h-44 w-auto"
               alt="devMountain SATX Logo"
             />
